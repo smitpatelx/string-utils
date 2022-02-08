@@ -46,6 +46,6 @@ jobs:
         run: cd ./dist/packages/string-utils
 
       - name: Publishing the npm package
-        run: npm publish --access public
+        run: npm publish dist/packages/string-utils --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}

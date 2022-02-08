@@ -2,6 +2,13 @@
   "name": "@smitpatelx/string-utils",
   "version": "0.0.1",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smitpatelx/string-utils/"
+  },
+  "directories": {
+    "bin": "./dist/packages/string-utils"
+  },
   "scripts": {
     "start": "./node_modules/nx/bin/nx.js serve",
     "build": "./node_modules/nx/bin/nx.js build",
