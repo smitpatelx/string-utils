@@ -1,0 +1,34 @@
+{
+  "root": "packages/string-utils",
+  "sourceRoot": "packages/string-utils/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/string-utils/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/string-utils"],
+      "options": {
+        "jestConfig": "packages/string-utils/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "build": {
+      "executor": "@nrwl/node:package",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/string-utils",
+        "tsConfig": "packages/string-utils/tsconfig.lib.json",
+        "packageJson": "packages/string-utils/package.json",
+        "main": "packages/string-utils/src/index.ts",
+        "assets": ["packages/string-utils/*.md"]
+      }
+    }
+  },
+  "tags": []
+}

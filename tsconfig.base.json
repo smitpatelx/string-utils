@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@string-utils/default": ["packages/default/src/index.ts"],
+      "string-utils": ["packages/string-utils/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

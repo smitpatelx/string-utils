@@ -1,4 +1,7 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "default": "packages/default",
+    "string-utils": "packages/string-utils"
+  }
 }
