@@ -7,7 +7,7 @@
     "build": "./node_modules/nx/bin/nx.js build",
     "test": "./node_modules/nx/bin/nx.js test"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@nrwl/node": "^13.8.0",
     "nx": "^13.7.3",
