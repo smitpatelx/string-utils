@@ -6,5 +6,12 @@
     "type": "git",
     "url": "https://github.com/smitpatelx/string-utils/"
   },
-  "author": "smitpatelx"
+  "author": "smitpatelx",
+  "keywords": [
+    "string utils",
+    "string utilities",
+    "string",
+    "utilities",
+    "utils"
+  ]
 }
