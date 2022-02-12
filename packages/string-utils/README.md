@@ -9,13 +9,28 @@
 <span class="badge-npmversion"><a href="https://npmjs.org/package/@smitpatelx/string-utils" title="View this project on NPM"><img src="https://img.shields.io/npm/v/@smitpatelx/string-utils.svg" alt="NPM version" /></a></span>
 <span class="badge-npmdownloads"><a href="https://npmjs.org/package/@smitpatelx/string-utils" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/@smitpatelx/string-utils.svg" alt="NPM downloads" /></a></span>
 
-# Install
-- NPM  - ```js
-          npm i @smitpatelx/string-utils
-         ```
-- Yarn  - ```js
-           yarn add @smitpatelx/string-utils
-          ```
+# Contribution
+This is an open-source project, feel free to contribute to this awesome project.<br/>
+Best way to do this: 
+  1. Fork the project
+  2. Create a branch `<current_version>-<github_username>-<keyword>`. Example: `1.0.0-smitpatelx-changesToIsEmpty`
+  3. Make a pull request
+  4. Make sure not to change version in package.json (That will be done in next release)
+
+# Installation
+- NPM 
+```js
+  npm i @smitpatelx/string-utils
+```
+- Yarn
+```js
+  yarn add @smitpatelx/string-utils
+```
+- CDN
+```html
+  <script src="https://cdn.jsdelivr.net/npm/@smitpatelx/string-utils@latest/src/lib/string-utils.js"></script>
+```
+- [Codepen](https://codepen.io/smitpatelx/full/XWzRovO/)
 
 # Use
 ```js
@@ -70,11 +85,11 @@ Apple
 
 #### RemoveWhiteSpace
 ```js
-removeWhiteSpace('111 222 333 444 000')
+removeWhiteSpace('111\n222\t333\n444\n\t000')
 removeWhiteSpace('  This   \t is awesome   \n\n\t library\n!  ')
 
 // Output
-111222333444000
+111 222 333 444 000
 This is awesome library !
 ```
 
