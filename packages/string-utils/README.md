@@ -6,8 +6,9 @@
   - Gzipped size: 515 B
 - Simple
 
-<span class="badge-npmversion"><a href="https://npmjs.org/package/@smitpatelx/string-utils" title="View this project on NPM"><img src="https://img.shields.io/npm/v/@smitpatelx/string-utils.svg" alt="NPM version" /></a></span>
-<span class="badge-npmdownloads"><a href="https://npmjs.org/package/@smitpatelx/string-utils" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/@smitpatelx/string-utils.svg" alt="NPM downloads" /></a></span>
+![VERSION](https://img.shields.io/npm/v/@smitpatelx/string-utils)
+![MONTHLY_DOWNLOADS](https://img.shields.io/npm/dm/@smitpatelx/string-utils)
+![NPM](https://img.shields.io/npm/l/@smitpatelx/string-utils?color=blue)
 
 # Contribution
 This is an open-source project, feel free to contribute to this awesome project.<br/>
